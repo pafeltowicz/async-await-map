@@ -2,7 +2,7 @@
     "compilerOptions": {
         "outDir": "./lib",
         "noImplicitAny": true,
-        "module": "commonjs",
+        "module": "es2015",
         "target": "es2015",
         "allowJs": true,
         "lib": [ "es2015" ]
