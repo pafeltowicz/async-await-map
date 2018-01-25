@@ -1,0 +1,25 @@
+{
+  "name": "async-await-map",
+  "version": "0.0.0",
+  "description": "Map function array with async await functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veranoo/async-await-map.git"
+  },
+  "keywords": [
+    "array",
+    "async",
+    "await",
+    "map"
+  ],
+  "author": "veranoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/veranoo/async-await-map/issues"
+  },
+  "homepage": "https://github.com/veranoo/async-await-map#readme"
+}
