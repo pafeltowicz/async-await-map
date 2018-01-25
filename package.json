@@ -1,6 +1,6 @@
 {
     "name": "async-await-map",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Map function array with async await functions",
     "main": "lib/index.js",
     "scripts": {
