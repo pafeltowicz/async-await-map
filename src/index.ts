@@ -1,4 +1,4 @@
-export async function asyncMap(lists: Array<any>, callback: Function) {
+async function asyncMap(lists: Array<any>, callback: Function) {
     const results = [];
     for await (let item of lists) {
         const itemResult = await callback(item);
@@ -7,7 +7,4 @@ export async function asyncMap(lists: Array<any>, callback: Function) {
     return results;
 }
 
-export const test = {
-    test: {},
-    async: asyncMap
-};
+export { asyncMap };
