@@ -1,0 +1,12 @@
+<script src="lib/index.js"></script>
+
+<script>
+    async function test () {
+        const x = await asyncMap([1,2,3], (item) => {
+            return fetch(item);
+        });
+        debugger;
+    }
+
+    test();
+</script>
