@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: './index.ts',
+    entry: './src/index.ts',
     module: {
         rules: [
             {
@@ -16,6 +16,8 @@ module.exports = {
     },
     output: {
         filename: 'index.js',
-        path: path.resolve(__dirname, 'lib')
+        path: path.resolve(__dirname, 'lib'),
+        libraryTarget: 'commonjs',
+        publicPath: '/'
     }
 };
